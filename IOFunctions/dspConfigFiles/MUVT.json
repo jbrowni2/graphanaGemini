@@ -1,0 +1,10 @@
+{
+    "outputs": [
+        "channel",
+        "timestamp",
+        "startEnergy",
+        "maxEnergy"
+    ],
+    "processors": {
+    }
+}

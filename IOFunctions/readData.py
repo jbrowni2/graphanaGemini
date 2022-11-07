@@ -13,7 +13,7 @@ import copy
 def get_raw_data(file, tb, buffer_len = 100000000):
     raw_dir = "/Users/gemini/data/raw"
 
-    f_raw = raw_dir + "/Run" + str(file) + ".lh5"
+    f_raw = raw_dir + "/" + str(file) + ".lh5"
 
     raw_store = lh5.LH5Store()
 
@@ -24,7 +24,7 @@ def get_raw_data(file, tb, buffer_len = 100000000):
 def get_dsp_data(file, tb, buffer_len = 100000000):
     raw_dir = "/Users/gemini/data/dsp"
 
-    f_raw = raw_dir + "/Run" + str(file) + ".lh5"
+    f_raw = raw_dir  + "/" + str(file) + ".lh5"
 
     raw_store = lh5.LH5Store()
 
